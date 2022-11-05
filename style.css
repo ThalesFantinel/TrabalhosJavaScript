@@ -1,0 +1,199 @@
+*{
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* Home Page */
+
+#links{
+    padding-top: 180px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 35%;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+#calculadora{
+    background-color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+#conversor{
+    background-color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 15px;
+    font-size: 25px;
+    border: 2px solid black;
+}
+
+/* Home Page */
+
+/* Calculadora */
+
+html{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to bottom, #10df43, rgb(8, 91, 40));
+}
+
+.button{
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#fundo{
+    background-color: white;
+    width: 320px;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    border: 5px solid black;
+}
+
+#igual{
+    width: 142px;
+}
+
+#apagar{
+    width: 66px;
+}
+
+#final{
+    padding-bottom: 10px;
+}
+
+.linhas{
+  margin: 10px;
+}
+
+.linhas input{
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+}
+
+#funcao{
+    font-size: 15px;
+}
+
+#apagar{
+    background-image: linear-gradient(to bottom, #ff6060, rgb(255, 21, 0));
+}
+
+#igual{
+    background-image: linear-gradient(to bottom, #10df43, rgb(8, 91, 40));
+}
+
+/* Calculadora */
+
+/* Conversor */
+
+#tudo{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #10df43, rgb(8, 91, 40));
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+#celsius-div {
+    flex: 1 1 45%;
+    margin: 5px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    transition: 0.4s;
+    border: 2px solid black;
+}
+
+#fahrenheit-div {
+    flex: 1 1 45%;
+    margin: 5px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    transition: 0.4s;
+    border: 2px solid black;
+}
+
+#kelvin-div {
+    flex: 1 1 45%;
+    margin: 5px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    transition: 0.4s;
+    border: 2px solid black;
+}
+
+#rankine-div {
+    flex: 1 1 45%;
+    margin: 5px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    transition: 0.4s;
+    border: 2px solid black;
+}
+
+/* Conversor */
+
+
